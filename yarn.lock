@@ -15,13 +15,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular-devkit/architect@npm:0.1002.0":
-  version: 0.1002.0
-  resolution: "@angular-devkit/architect@npm:0.1002.0"
+"@angular-devkit/architect@npm:0.1002.3":
+  version: 0.1002.3
+  resolution: "@angular-devkit/architect@npm:0.1002.3"
   dependencies:
-    "@angular-devkit/core": 10.2.0
+    "@angular-devkit/core": 10.2.3
     rxjs: 6.6.2
-  checksum: f60ab3c32c9f6dafcb3618020c365f402cf5f7cc45f25a2c86490cbf74f968dddf1f1e083811f82bbffa35636d7fa7cea0462b9d9a105ea4c66a98827d7de29f
+  checksum: c431d2432e64a40bc54088516330015e2aba427738c338843a1bc1dc5ffd2a27bdb50fe5e3c8605f65c5882de63d6ae9d3fe430f451b5ffb82c3a3e28e302f4d
   languageName: node
   linkType: hard
 
@@ -133,11 +133,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular-devkit/build-ng-packagr@npm:~0.1002.0":
-  version: 0.1002.0
-  resolution: "@angular-devkit/build-ng-packagr@npm:0.1002.0"
+"@angular-devkit/build-ng-packagr@npm:~0.1002.3":
+  version: 0.1002.3
+  resolution: "@angular-devkit/build-ng-packagr@npm:0.1002.3"
   dependencies:
-    "@angular-devkit/architect": 0.1002.0
+    "@angular-devkit/architect": 0.1002.3
     rxjs: 6.6.2
   peerDependencies:
     ng-packagr: ^10.0.0
@@ -145,7 +145,7 @@ __metadata:
   peerDependenciesMeta:
     tsickle:
       optional: true
-  checksum: 0922c20094c9649c32060e1a705a9d9d77a2f8f2985767ee559621a0793a2d7045abec4d469548ccb4735e4ce5048f4ff74afb3dc0518d40bdb520f2bc1e0a40
+  checksum: d80f89dd008b02837a93b7953dce85cba9d7cf7794522d65f65a27f8ab67fc7d3e0b55d1094c167add3d1bf37366736b877729f8a7c0669d57023d1d66d22e79
   languageName: node
   linkType: hard
 
@@ -162,16 +162,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular-devkit/core@npm:10.2.0":
-  version: 10.2.0
-  resolution: "@angular-devkit/core@npm:10.2.0"
+"@angular-devkit/core@npm:10.2.3":
+  version: 10.2.3
+  resolution: "@angular-devkit/core@npm:10.2.3"
   dependencies:
     ajv: 6.12.4
     fast-json-stable-stringify: 2.1.0
     magic-string: 0.25.7
     rxjs: 6.6.2
     source-map: 0.7.3
-  checksum: cea4a77a854e325e7e008d4990132461e573e33848b4d84f8b5ada8303e496e12544fbd19f0057dd35625feb8b91d6f0797d99bac9a48e364035bf245279427a
+  checksum: c52e5e0d9a1c720703f356552d9ee9737db898f5b0b1af4a64b86b8de21fdda82dcb2124cbc661390fc6365350b94729c3a26ad565d964b999a532fa693a4d3b
   languageName: node
   linkType: hard
 
@@ -1735,6 +1735,50 @@ __metadata:
   checksum: 5b483da5c6e6f2394fba7ee1da8787a0c9cddd33491271c4da702e49e6faf95ce41d7c8bf9a4ee47f2ef06bdb35096f4d0f6ae4b5bea35ebefe16309d22344b7
   languageName: node
   linkType: hard
+
+"@benpsnyder/angular-user-idle@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@benpsnyder/angular-user-idle@workspace:."
+  dependencies:
+    "@angular-devkit/build-angular": ~13.0.4
+    "@angular-devkit/build-ng-packagr": ~0.1002.3
+    "@angular/animations": ^13.0.3
+    "@angular/cdk": ^13.0.3
+    "@angular/cli": ~13.0.4
+    "@angular/common": ^13.0.3
+    "@angular/compiler": ^13.0.3
+    "@angular/compiler-cli": ^13.0.3
+    "@angular/core": ^13.0.3
+    "@angular/forms": ^13.0.3
+    "@angular/language-service": ^13.0.3
+    "@angular/material": ^13.0.3
+    "@angular/platform-browser": ^13.0.3
+    "@angular/platform-browser-dynamic": ^13.0.3
+    "@angular/router": ^13.0.3
+    "@types/jasmine": ~3.10.2
+    "@types/jasminewd2": ~2.0.10
+    "@types/node": ^16.11.11
+    codelyzer: ^6.0.2
+    core-js: ^3.19.2
+    jasmine-core: ~3.10.1
+    jasmine-spec-reporter: ~7.0.0
+    karma: ~6.3.9
+    karma-chrome-launcher: ~3.1.0
+    karma-coverage-istanbul-reporter: ~3.0.3
+    karma-jasmine: ~4.0.1
+    karma-jasmine-html-reporter: ^1.7.0
+    ng-packagr: ^13.0.8
+    node-sass: ^6.0.1
+    prettier: ^2.5.0
+    protractor: ~7.0.0
+    rxjs: ^6.6.7
+    ts-node: ~10.4.0
+    tslib: ^2.3.1
+    tslint: ~6.1.3
+    typescript: ~4.4.4
+    zone.js: ~0.11.4
+  languageName: unknown
+  linkType: soft
 
 "@cspotcode/source-map-consumer@npm:0.8.0":
   version: 0.8.0
@@ -9015,7 +9059,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rxjs@npm:6.6.7, rxjs@npm:^6.4.0, rxjs@npm:^6.5.0, rxjs@npm:^6.5.3":
+"rxjs@npm:6.6.7, rxjs@npm:^6.5.0, rxjs@npm:^6.5.3, rxjs@npm:^6.6.7":
   version: 6.6.7
   resolution: "rxjs@npm:6.6.7"
   dependencies:
@@ -10199,7 +10243,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:~4.4.0":
+"typescript@npm:~4.4.4":
   version: 4.4.4
   resolution: "typescript@npm:4.4.4"
   bin:
@@ -10209,7 +10253,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@~4.4.0#~builtin<compat/typescript>":
+"typescript@patch:typescript@~4.4.4#~builtin<compat/typescript>":
   version: 4.4.4
   resolution: "typescript@patch:typescript@npm%3A4.4.4#~builtin<compat/typescript>::version=4.4.4&hash=de8f8a"
   bin:
@@ -10314,50 +10358,6 @@ __metadata:
   checksum: 50d100d3dd2d98b9fe3ada48cadb0b08aa6be6d3ac64112b867b56b19be4bfcba03c2a9a0d7922bfd7ac17d4834e88537749fe182430dfd9b68e520175900d90
   languageName: node
   linkType: hard
-
-"user-idle-app@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "user-idle-app@workspace:."
-  dependencies:
-    "@angular-devkit/build-angular": ~13.0.4
-    "@angular-devkit/build-ng-packagr": ~0.1002.0
-    "@angular/animations": ^13.0.3
-    "@angular/cdk": ^13.0.3
-    "@angular/cli": ~13.0.4
-    "@angular/common": ^13.0.3
-    "@angular/compiler": ^13.0.3
-    "@angular/compiler-cli": ^13.0.3
-    "@angular/core": ^13.0.3
-    "@angular/forms": ^13.0.3
-    "@angular/language-service": ^13.0.3
-    "@angular/material": ^13.0.3
-    "@angular/platform-browser": ^13.0.3
-    "@angular/platform-browser-dynamic": ^13.0.3
-    "@angular/router": ^13.0.3
-    "@types/jasmine": ~3.10.2
-    "@types/jasminewd2": ~2.0.10
-    "@types/node": ^16.11.11
-    codelyzer: ^6.0.2
-    core-js: ^3.19.2
-    jasmine-core: ~3.10.1
-    jasmine-spec-reporter: ~7.0.0
-    karma: ~6.3.9
-    karma-chrome-launcher: ~3.1.0
-    karma-coverage-istanbul-reporter: ~3.0.3
-    karma-jasmine: ~4.0.1
-    karma-jasmine-html-reporter: ^1.7.0
-    ng-packagr: ^13.0.8
-    node-sass: ^6.0.1
-    prettier: ^2.5.0
-    protractor: ~7.0.0
-    rxjs: ^6.4.0
-    ts-node: ~10.4.0
-    tslib: ^2.3.1
-    tslint: ~6.1.3
-    typescript: ~4.4.0
-    zone.js: ~0.11.4
-  languageName: unknown
-  linkType: soft
 
 "util-deprecate@npm:^1.0.1, util-deprecate@npm:^1.0.2, util-deprecate@npm:~1.0.1":
   version: 1.0.2
